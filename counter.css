@@ -1,0 +1,38 @@
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 400px;
+  background-color: rgba(64, 187, 187, 0.568);
+  border-radius: 20px;
+  text-align: center;
+  font-size: 70px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#display {
+  margin: 65px 0px;
+  padding: 15px;
+  margin-top: 90px;
+  color: rgb(21, 37, 107);
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bolder;
+}
+
+#error {
+  color: red;
+  font-size: 20px;
+  margin: 30px;
+}
